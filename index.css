@@ -653,7 +653,7 @@ body {
 /* button */
 .answerBtn {
     width: 87vw;
-    height: 7vh;
+    height: 9vh;
     background-color: rgba(234, 186, 107, 0.7);
     color: #03255A;
     border: none;
