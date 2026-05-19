@@ -19,6 +19,7 @@ body {
     font-family: "BOLD";
     src: url("assets/font/gadi-almog-regular-aaa.otf");
 } 
+
 .navbar {
     position: absolute;
     top: 5%;
@@ -155,6 +156,25 @@ body {
     text-align: right;
     color: #03255A;
     opacity: 1;
+}
+
+.checkBtn {
+    
+    border: none;
+    border-radius: 12px;
+
+    background-color: rgba(234, 186, 107, 0.7);
+    color: #03255A;
+
+    padding: 0 40px 0 15px; /* מקום לחץ */
+    text-align: right;
+
+    font-family: "yarden";
+    font-size: 1rem;
+
+    box-shadow: 0 5px 12px rgba(3,37,90,0.35);
+    outline: none;
+    cursor: pointer;
 }
 
 /* dropdown */
@@ -614,13 +634,13 @@ body {
 .questionCounter {
     position: absolute;
     top: 9%;
-    left: 80%;
+    left: 75%;
     background-color: rgba(234, 186, 107, 0.7);
     color: #03255A;
-    padding: 8px 15px;
+    padding: 5px 10px;
     border-radius: 10px;
     font-size: 1.3rem;
-    font-weight: bold;
+
     font-family: "BOLD";
     box-shadow: 0 4px 12px rgba(3, 37, 90, 0.35);
 }
@@ -634,8 +654,9 @@ body {
   transform: translateX(-50%);
     color: #03255A;
     font-family: "BOLD";
-    width: 100vw;
-    font-size: 1.5rem;
+    width: 95vw;
+    font-weight: lighter;
+    font-size: 1.4rem;
     direction: rtl;
 }
 
@@ -706,7 +727,7 @@ background-color: rgba(163, 11, 13, 0.5);
 }
 
 .smallQuestion {
-    font-size:1.1rem;
+    font-size:1rem;
 
 }
 
