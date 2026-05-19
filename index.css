@@ -227,13 +227,15 @@ body {
 }
 .dropdownRow{
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    width: 95vw;   /* או מה שמתאים לטופס שלך */
-    margin: auto;
+    gap: 12px;
+
+    width: 95vw;
+    max-width: 600px;
+
+    margin: 0 auto;
 }
 
-/* כל dropdown יקבל חצי רוחב */
+/* כל dropdown יתפוס חצי */
 .dropdown{
     flex: 1;
 }
