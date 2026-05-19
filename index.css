@@ -655,6 +655,7 @@ body {
     color: #03255A;
     font-family: "BOLD";
     width: 95vw;
+    row-gap: 1vh;
     font-weight: lighter;
     font-size: 1.4rem;
     direction: rtl;
